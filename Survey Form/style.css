@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(https://img.shgstatic.com/clutchco-static/og_profile/s3fs-public/logos/0cb209884897ce887e00170532948ad3.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h2{
+    text-align: center;
+    color: ghostwhite;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: none;
+    color: ghostwhite;
+    padding: 0 10px;
+    width: 500px;
+    margin: 10px 200px;
+}
+.container {
+    max-width: 500px;
+    margin: 0 50px;
+    padding: 20px;
+}
+.form-group{
+    margin-top: 15px;
+    padding: 3px;
+}
+label{
+    padding: 5px 20px;
+}
+input, select{
+    padding: 2px 20px;
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+    padding: 3px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    border-radius: 5px;
+}
+.btn-submit{
+    padding: 5px 10px;
+    background-color: rgb(99, 196, 99);
+}
+.btn-reset{
+    padding: 5px 10px;
+    background-color: rgb(204, 81, 81);
+}

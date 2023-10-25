@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <img src="" alt="">
+    <div class="card">
+        <div class="container">
+            <h2>Survey Form</h2>
+            <div class="form-body">
+                <form id="form" action="">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" placeholder="enter first name " required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" placeholder="enter last name "  required>
+                    </div>
+                  
+                    <div class="form-group">
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country:</label>
+                        <select id="country" required>
+                            <option value="" disabled selected>Select your country</option>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender:</label>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="profession">Profession:</label>
+                        <input type="text" id="profession" placeholder="enter your profession "  required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="enter email"  required>
+                    </div>   
+                    <div class="form-group">
+                        <label for="mobile">Mobile:</label>
+                        <input type="tel" id="mobile" placeholder="enter 10 digit mobile no"  required>
+                    </div>   
+                    <div class="form-group buttons">
+                        <button class="btn-submit" type="button" onclick="submitForm()">Submit</button>
+                        <button class="btn-reset" type="reset">Reset</button>
+                    </div>   
+                </form>    
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
